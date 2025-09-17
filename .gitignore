@@ -1,0 +1,49 @@
+# ======================
+# Python
+# ======================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.sqlite3
+*.db
+
+# Virtual env
+.venv/
+env/
+venv/
+
+# ======================
+# Streamlit
+# ======================
+.streamlit/
+.streamlit/secrets.toml
+
+# ======================
+# Docker
+# ======================
+# Volumes e dados locais
+db_data/
+docker-data/
+*.log
+
+# ======================
+# Env files
+# ======================
+.env
+.env.local
+*.env.*
+
+# ======================
+# VSCode / IDE
+# ======================
+.vscode/
+.idea/
+*.code-workspace
+
+# ======================
+# Sistema Operacional
+# ======================
+.DS_Store
+Thumbs.db
